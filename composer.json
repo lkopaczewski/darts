@@ -1,4 +1,18 @@
 {
+  "name": "lukasz-kopaczewski/darts",
+  "description": "library for darts game",
+  "keywords": ["darts","game", "clock"],
+  "homepage": "https://github.com/lukasz-kopaczewski/darts",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Łukasz Kopaczewski",
+      "email": "kontakt@kopaczewski.net",
+      "homepage": "http://www.kopaczewski.net/"
+    }
+  ],
+
   "require-dev": {
     "phpunit/phpunit": "4.*"
   },
