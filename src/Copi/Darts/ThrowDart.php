@@ -4,8 +4,8 @@ namespace Copi\Darts;
 
 class ThrowDart
 {
-    private $score;
-    private $multiplier;
+    protected $score;
+    protected $multiplier;
 
     public function __construct($score, $multiplier)
     {

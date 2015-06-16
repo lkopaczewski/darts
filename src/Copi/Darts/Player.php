@@ -4,8 +4,8 @@ namespace Copi\Darts;
 
 class Player
 {
-    private $name;
-    private $inGame = false;
+    protected $name;
+    protected $inGame = false;
 
     public function __construct($name)
     {

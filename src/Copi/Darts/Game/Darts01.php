@@ -7,9 +7,9 @@ use Copi\Darts\Player;
 
 class Darts01 extends Game
 {
-    private $initialScore;
-    private $doublein = false;
-    private $doubleout = false;
+    protected $initialScore;
+    protected $doublein = false;
+    protected $doubleout = false;
 
     public function __construct($initialScore, $players, $modifications)
     {

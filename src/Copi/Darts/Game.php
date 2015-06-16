@@ -6,12 +6,17 @@ abstract class Game
 {
     const TRIALS_NUMBER = 3;
 
+    protected $id;
     protected $players;
-    private $inactivePlayers;
+    protected $inactivePlayers;
     protected $throws;
 
-
     abstract public function checkIsWinner(Player $player);
+
+    public function getId()
+    {
+        return $this->id;
+    }
 
     public function __construct($players)
     {
